@@ -1,0 +1,327 @@
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    height: 100%;
+}
+.container {
+    padding: 0 20px;
+    background: no-repeat  url('img/bg.png'); 
+    background-position: top center; 
+    background-size: 100% 62%;
+    background-color: #bbdddf56;
+}
+
+img.choose-crm__logo {
+    max-width: 40%; 
+    padding: 10px 0;  
+}
+.container, .choose-crm__three-reasons, .choose-crm__download {
+    display: flex;
+    flex-direction: column ;
+}
+
+.choose-crm__input-form {
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    max-width: 300px;
+    padding: 55px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px #83808080; 
+      
+}
+p.choose-crm__free-book {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color:#00aeef;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+p.choose-crm__written {
+    color: #fa983f;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;    
+}
+p.choose-crm__descr, p.choose-crm__new-e-book {
+    max-width: 440px;
+}
+ 
+ul {
+    list-style-image: url('img/checkmark.png');
+    list-style-type: none; 
+}
+
+p.choose-crm__for-business {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 34px;
+    color: #141f33;
+    margin: 0;
+}
+
+p.choose-crm__descr, .choose-crm__items_item p, p.choose-crm__new-e-book, .choose-crm__list_item {
+    color: #82858c;
+}
+p.choose-crm__descr, .choose-crm__items_item p, p.choose-crm__new-e-book, ul li p {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.7;
+}
+p.choose-crm__new-e-book {
+    width: 600px;
+}
+
+.choose-crm-with-form_position {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+p.choose-crm__title-reasons, p.choose-crm__title-download, p.choose-crm__title-ready {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #141f33;
+}
+
+ol.choose-crm__items  {
+    color: #141f33;
+    font-weight: bold;
+}
+p.choose-crm__title-ready {
+   max-width: 400px;
+   align-self: center;
+   text-align: center ; 
+}
+label p {
+    font-style: 'Montserrat', Arial, sans-serif;
+    font-size: 13px;
+    color: #6d6d6d;
+    font-weight: bold;
+    margin: 0;
+}
+button.choose-crm__button {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 4px 8px 10px #f1b86e;
+    background: linear-gradient(120deg, #ffb100 0%,  #f98f48 50%, #f7846d 100%);
+    -webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+    transition: all .3s ease-in; 
+}
+button.choose-crm__button:hover {
+    background: #f7846d ;
+}
+p.choose-crm__button-item {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.choose-crm__header-with-form {
+    display: flex;
+    -ms-flex-flow:column wrap ;
+    flex-flow: column wrap;   
+}
+
+input {
+    -webkit-appearance: none;
+    border-radius: 5px;
+    padding: 15px;
+    border:1px solid #e4e4e4;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+  :-ms-input-placeholder { 
+    color: #c9c9c9;
+  }
+  ::placeholder { 
+    color: #c9c9c9;
+    opacity: 1; 
+  }
+  ::placeholder:focus {
+    background-color: #ffff;
+  }
+  input:focus{
+    outline: none;
+    box-shadow: 0 5px 15px rgba(197, 194, 194, 0.5);
+  }
+  input:required:invalid:not(:placeholder-shown) {
+    border: 1px solid red;
+    outline: none;
+    }
+  
+  p.choose-crm__button-item, img.icon {
+    display: inline-block;
+    text-align: center;
+    font-style: 'Montserrat', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+ ol, nav ul  {
+    padding: 0;
+    margin-left: 20px; 
+}
+  @media (min-width: 580px) { 
+    img.choose-crm__logo {
+        max-width: 30%; 
+        padding: 10px 0px;
+       
+    }
+    ol, nav ul  {
+        padding: 0 20px;
+        margin-left: 0; 
+        
+    }
+    
+  .container {
+    padding: 0;
+    background-position: top right; 
+    background-size: 70% 60%;
+    background-color: #bbdddf56;
+    
+  }
+  .choose-crm__header-with-form, .choose-crm__three-reasons, .choose-crm__download {
+    margin: 0 30px;
+ }
+ p.choose-crm__descr, p.choose-crm__new-e-book {
+     max-width: 480px;
+ }
+ li.choose-crm__list_item {
+     margin: 1px;
+ }
+ nav ul {
+    padding-left: 20px;
+}
+}
+@media (min-width: 768px) { 
+    .container {
+        padding: 0;
+        background-position: top right; 
+        background-size: 70% 70%;
+        background-color: #bbdddf56;
+        
+    }
+    .choose-crm__header-with-form, .choose-crm__three-reasons{
+        margin: 0 20px;
+
+    }
+    .choose-crm__download {
+        margin: 0 ;
+    }
+    img.choose-crm__logo {
+        max-width: 16%; 
+        padding: 10px 0px;
+       
+    }
+    p.choose-crm__title-download {
+        padding-left: 20px;
+     }
+
+}
+@media all and (min-width: 960px) and (max-width: 1025px) { 
+    img.choose-crm__logo {
+        max-width: 20%; 
+        padding: 10px 0px;
+       
+    }
+    .choose-crm__input-form {
+       position: absolute;
+       left: 630px;
+       top: 150px;
+       
+    }
+    .container {
+       position: relative;
+       background-size: contain;
+       
+ 
+    }
+    .choose-crm__header-with-form, .choose-crm__three-reasons{
+        margin: 0 80px;
+
+    }
+    .choose-crm__download{
+        margin: 0 50px;
+    }
+    .choose-crm__input-form {
+        padding: 30px 55px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px #83808080; 
+    }
+    button.choose-crm__button {
+        margin-top: 10px;
+    }
+    img.icon {
+        display: none;
+    }
+   
+}
+
+@media all and (min-width: 1025px) and (max-width: 1200px){ 
+    img.choose-crm__logo {
+        max-width: 15%; 
+        padding: 10px 0px;  
+    }
+    
+    .choose-crm__input-form {
+        position: absolute;
+        left: 580px;
+        top: 150px;
+     }
+     .container {
+        position: relative;
+        background-size: contain;
+     }
+     .choose-crm__input-form {
+        max-width: 300px;
+        padding: 55px;
+          
+    }
+    
+}
+@media (min-width: 1200px) {
+    img.choose-crm__logo {
+        max-width: 15%; 
+        padding: 10px 0px;
+    }
+    
+    .choose-crm__input-form {
+        position: absolute;
+        left: 700px;
+        top: 150px;
+     }
+     .container {
+        position: relative;
+        background-size: contain;
+     }
+     .choose-crm__input-form {
+        max-width: 300px;
+        padding: 55px;
+          
+    }
+    .choose-crm__header-with-form, .choose-crm__three-reasons{
+        margin: 0 80px;
+
+    }
+    .choose-crm__download{
+        margin: 0 50px;
+    }
+    p.choose-crm__descr, p.choose-crm__new-e-book {
+        max-width: 540px;
+    }
+    nav ul {
+        padding-left: 40px;
+     }
+}
+
+
